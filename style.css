@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 12px;
+}
+.container {
+    width: 760px;
+    margin: auto;
+}
+
+/*header*/
+header {
+    display: block;
+    height: 320px;
+    background: url(images/header-bg.jpg) no-repeat;
+    position: relative;
+}
+header div {
+    display: inline-block;
+    position: absolute;
+}
+.header-name {
+    left: 185px;
+    top: 20px;
+}
+.phone-number {
+    left: 500px;
+    top: 20px;
+}
+.header-text1 {
+    left: 190px;
+    top: 90px;
+    font-size: 33px
+}
+.header-text2 {
+    left: 270px;
+    top: 145px;
+    font-size: 15px
+}
+.header-form {
+    background-color: white;
+    height: 40px;
+    width: 340px;
+    top: 180px;
+    left: 210px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px silver;
+}
+.form-name-email input {
+    border-radius: 3px;
+    margin: 9px;
+    font-size: 11px;
+}
+.header-form .form-name-email input {
+    border: 1px solid rgb(218, 30, 73);
+    color: rgb(218, 30, 73);
+}
+.header-form .form-name-email input:focus {
+    box-shadow: 1px 1px 5px black;
+    outline: none;
+}
+#firstname, #email {
+    height: 17px;
+    width: 110px;
+}
+#firstname {
+    margin-right: 2px;
+}
+#email {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#button-submit {
+    height: 20px;
+    width: 80px;
+    color: white;
+    border-radius: 3px;
+    margin-left: 2px;
+}
+.header-form #button-submit {
+    background-color: rgb(218, 30, 73);
+}
+.header-discount {
+    height: 164px;
+    width: 220px;
+    top: 250px;
+    left: 270px;
+    color: rgb(242, 36, 112);
+    text-shadow: none;
+    background: url(images/discount.png) no-repeat;
+    z-index: 10;
+}
+.discount-count {
+    font-size: 25px;
+    width: 90px;
+    top: 60px;
+    left: 30px;
+    text-align: center;
+}
+.discount-bonus {
+    font-size: 12px;
+    width: 90px;
+    top: 50px;
+    left: 118px;
+    text-align: center;
+}
+/*header end*/
+
+/*content*/
+.content-top {
+    position: relative;
+    height: 190px;
+    background-color: rgb(33, 166, 215);
+}
+#button-vk {
+    position: absolute;
+    height: 60px;
+    width: 375px;
+    top: 110px;
+    left: 200px;
+    background: url(images/button-vk.png) no-repeat;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-shadow: none;
+    text-align: center;
+}
+#button-vk:hover {
+    color: silver;
+}
+.content-center {
+    background: url(images/content-center-bg.jpg) no-repeat;
+    height: 200px;
+}
+.examples {
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgb(90, 90, 90);
+    height: 90px;
+    width: 120px;
+    margin: 55px 0;
+}
+#example1 {
+    background: url(images/example1.jpg) no-repeat;
+    margin-left: 187px;
+}
+#example2 {
+    background: url(images/example2.jpg) no-repeat;
+    margin-left: 10px;
+}
+#example3 {
+    background: url(images/example3.jpg) no-repeat;
+    margin-left: 10px;
+    margin-right: 187px;
+}
+.content-bottom {
+    height: 200px;
+    background-color: rgb(237, 58, 83);
+}
+.images {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    margin: 55px 0;
+}
+#image1 {
+    background: url(images/img1.png) no-repeat;
+    margin-left: 187px;
+}
+#image2 {
+    background: url(images/img2.png) no-repeat;
+    margin-left: 70px;
+}
+#image3 {
+    background: url(images/img3.png) no-repeat;
+    margin-left: 70px;
+    margin-right: 187px;
+}
+/*content end*/
+
+/*footer*/
+footer {
+    position: relative;
+    display: block;
+    height: 175px;
+}
+.footer-form {
+    position: absolute;
+    background-color: rgb(246, 246, 246);
+    height: 40px;
+    width: 340px;
+    top: 30px;
+    left: 210px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.footer-form .form-name-email input {
+    border: 1px solid rgb(1, 116, 161);
+    color: rgb(1, 116, 161);
+}
+.footer-form #button-submit {
+    background-color: rgb(1, 116, 161);
+}
+.footer-form .form-name-email input:focus {
+    box-shadow: 1px 1px 5px black;
+    outline: none;
+}
+/*footer end*/
